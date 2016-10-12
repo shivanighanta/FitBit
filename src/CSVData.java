@@ -27,9 +27,44 @@ public class CSVData {
 	public static CSVData readCSVFile(String filename, int numLinesIgnore, String[] columnHeaders) {
 		return new CSVData();
 	}
-
+	
 	public static CSVData readCSVFile(String filename, int numLinesIgnore) {
 		return new CSVData();
 	}
+	
+	public static double[] getRow(int row){
+		return null;
+	}
+	
+	public static double[] getColumn(int column){
+		return null;
+	}
+	
+	public static double[][] getMultipleRows(int[] rows){
+		return null;
+	}
+	
+	public static double[][] getMultipleColumns(int[] columns){
+		return null;
+	}
+	
+	public static void setEntry(int row, int column){
+		
+	}
+	
+	public static void setRow(double[] values){
+		
+	}
+	
+	public static void setColumn(double[] values){
+		
+	}
 
+	public static String[] getColumnTitles(){
+		return null;
+	}
+	
+	public static void readDataToCSVFile(){
+		
+	}
 }
